@@ -12,9 +12,9 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
-openai.api_key = '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'
+openai.api_key = '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'
 
-model_name = "gpt-4"
+model_name = "gpt-3.5-turbo"
 settings = {
     "temperature": 0.7,
     "max_tokens": 500,
